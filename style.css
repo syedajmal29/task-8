@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav ul li{
+list-style: none;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+header{
+    background-color: rgb(26, 23, 23);
+    
+}
+.heading{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.heading h1{
+    font-size: 5rem;
+}
+section{
+    max-width: 30rem;
+    margin: 150px 15px 0px 200px ;
+}
+.p1 h1{
+    color: black;
+    font-size: 25px;
+    
+}
+.p2{
+    margin-top: 70px;
+}
+.p2 h1{
+    color: black;
+    font-size: 25px;
+}
+.p1 p{
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px 0;
+}
+.p2 p{
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px 0;
+}
+article>img{
+    margin: 100px 0px 50px 60px;  
+    height: 100px;
+    width: 300px;
+}
+.button .btn-1{
+    background-color: silver;
+    border-radius: 0px;
+    color: black;
+    width: 10rem;
+}
+.button .btn-2{
+    background-color: red;
+    border-radius: 0px;
+    color: white;
+    width: 8rem;
+}
+.button .btn-3{
+    background-color: orangered;
+    border-radius: 0px;
+    color: white;
+    width: 8rem;
+}
+.content-1{
+    background-color: rgb(26, 23, 23);
+    height: 150px;
+    color: white;
+}
+.content-1 h1{
+    font-size: 30px;
+    padding-top: 50px;
+}
+.content-3{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-left: 80px;
+}
+.content-4 ul{
+margin-left: 80px;
+margin-bottom: 90px;
+}
+.content-4 h1{
+    color: black;
+    font-size: 30px;
+    margin: 90px 0;
+}
+footer{
+    background-color: rgb(26, 23, 23);
+    height: 250px;
+}
+footer h5{
+    color: white;
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.about h4{
+    color: white;
+    font-size: 14px;
+}
+.about h4 span{
+    color: grey;
+}
+.tech span{
+    color: grey;
+    font-size: 15px;
+}
+.content-disclaimer h4{
+    color: white;
+    font-size: 14px;
+    max-width: 300px;
+}
+.content-disclaimer h4 a{
+    text-decoration: none;
+}
